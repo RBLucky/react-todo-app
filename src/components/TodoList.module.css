@@ -1,0 +1,84 @@
+.container {
+	  max-width: 600px;
+	    margin: 20px auto;
+	      padding: 20px;
+	        background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+		  border-radius: 8px;
+		    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	    }
+
+	    .header {
+		      display: flex;
+		        justify-content: space-between;
+			  align-items: center;
+			    margin-bottom: 20px;
+		    }
+
+		    .header h2 {
+			      font-size: 2rem;
+			        font-weight: bold;
+				  color: #ffffff; /* White text for the header */
+				    background: linear-gradient(to bottom, #e6e6e6, #8a8a8a);
+				      -webkit-background-clip: text;
+				        -webkit-text-fill-color: transparent;
+				}
+
+				.inputWrapper {
+					  display: flex;
+					    gap: 10px;
+					      margin-bottom: 20px;
+				      }
+
+				      .todoList {
+					        list-style: none;
+						  padding: 0;
+					  }
+
+					  .todoItem {
+						    display: flex;
+						      justify-content: space-between;
+						        align-items: center;
+							  background-color: rgba(255, 255, 255, 0.15); /* Slightly darker for contrast */
+							    padding: 10px;
+							      border-radius: 5px;
+							        margin-bottom: 10px;
+							}
+
+							.todoItem.completed {
+								  text-decoration: line-through;
+								    color: #b0b0b0;
+							    }
+
+							    .todoItem .MuiListItemText-primary {
+								      color: #f0f0f0 !important; /* Light text for the todo item */
+							      }
+
+							      .buttons {
+								        display: flex;
+									  align-items: center;
+									    gap: 10px;
+								    }
+
+								    .MuiButton-outlinedSecondary {
+									      color: #ffffff !important;
+									        border-color: #ffffff !important;
+									}
+
+									.MuiButton-containedPrimary {
+										  background-color: #1c1c3c !important;
+										    color: #ffffff !important;
+										      font-weight: bold;
+									      }
+
+									      .MuiTextField-root {
+										        flex-grow: 1;
+										}
+
+										.MuiTextField-root input {
+											  color: #ffffff !important;
+										  }
+
+										  .MuiInputLabel-root {
+											    color: #ffffff !important;
+										    }
+

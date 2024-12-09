@@ -1,0 +1,60 @@
+.dashboard {
+	  height: 100vh;
+	    display: flex;
+	      flex-direction: column;
+	        justify-content: center;
+		  align-items: center;
+		    text-align: center;
+		      background: linear-gradient(135deg, #1c1c3c, #4b0082, #d3d3d3);
+		        background-size: 200% 200%;
+			  animation: lavaLamp 8s infinite alternate;
+			    color: white;
+			      font-family: 'Arial', sans-serif;
+		      }
+
+		      @keyframes lavaLamp {
+			        0% {
+					    background-position: 0% 50%;
+					      }
+					        50% {
+							    background-position: 100% 50%;
+							      }
+							        100% {
+									    background-position: 0% 50%;
+									      }
+								      }
+
+								      .header {
+									        font-size: 4rem;
+										  font-weight: bold;
+										    background: linear-gradient(to bottom, #d3d3d3, #b0c4de, #add8e6);
+										      -webkit-background-clip: text;
+										        -webkit-text-fill-color: transparent;
+											  animation: gradientText 5s infinite alternate;
+										  }
+
+										  @keyframes gradientText {
+											    0% {
+												        background-position: 0%;
+													  }
+													    100% {
+														        background-position: 100%;
+															  }
+														  }
+
+														  .signOutButton {
+															    margin-top: 20px;
+															      padding: 10px 20px;
+															        font-size: 1.2rem;
+																  color: white;
+																    background-color: #1c1c3c;
+																      border: none;
+																        border-radius: 5px;
+																	  cursor: pointer;
+																	    transition: background-color 0.3s;
+																    }
+
+																    .signOutButton:hover {
+																	      background-color: #4b0082;
+																      }
+

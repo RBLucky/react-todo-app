@@ -1,0 +1,110 @@
+.authContainer {
+	  display: flex;
+	    justify-content: center;
+	      align-items: center;
+	        min-height: 100vh;
+		  background: linear-gradient(135deg, #1c1c3c, #602080, #b0b0b0);
+		    background-size: 400% 400%;
+		      animation: gradientAnimation 12s ease infinite;
+	      }
+
+	      .authCard {
+		        background: rgba(255, 255, 255, 0.1);
+			  backdrop-filter: blur(10px);
+			    padding: 40px;
+			      border-radius: 12px;
+			        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+				  text-align: center;
+				    width: 100%;
+				      max-width: 400px;
+			      }
+
+			      .title {
+				        font-size: 2rem;
+					  color: #e6e6e6;
+					    margin-bottom: 10px;
+				    }
+
+				    .subtitle {
+					      font-size: 1rem;
+					        color: #cccccc;
+						  margin-bottom: 20px;
+					  }
+
+					  .inputGroup {
+						    display: flex;
+						      flex-direction: column;
+						        gap: 15px;
+							  margin-bottom: 20px;
+						  }
+
+						  .input {
+							    padding: 12px;
+							      border: none;
+							        border-radius: 8px;
+								  font-size: 1rem;
+								    color: #ffffff;
+								      background-color: rgba(255, 255, 255, 0.2);
+								        outline: none;
+									  transition: background 0.3s;
+								  }
+
+								  .input::placeholder {
+									    color: #cccccc;
+								    }
+
+								    .input:focus {
+									      background-color: rgba(255, 255, 255, 0.3);
+								      }
+
+								      .buttonGroup {
+									        display: flex;
+										  justify-content: space-between;
+										    gap: 15px;
+									    }
+
+									    .buttonPrimary {
+										      background-color: #602080;
+										        color: #ffffff;
+											  padding: 12px;
+											    border: none;
+											      border-radius: 8px;
+											        cursor: pointer;
+												  width: 100%;
+												    font-weight: bold;
+												      transition: background 0.3s;
+											      }
+
+											      .buttonPrimary:hover {
+												        background-color: #8030b0;
+												}
+
+												.buttonSecondary {
+													  background-color: transparent;
+													    border: 2px solid #ffffff;
+													      color: #ffffff;
+													        padding: 12px;
+														  border-radius: 8px;
+														    cursor: pointer;
+														      width: 100%;
+														        font-weight: bold;
+															  transition: all 0.3s;
+														  }
+
+														  .buttonSecondary:hover {
+															    background-color: #ffffff;
+															      color: #602080;
+														      }
+
+														      @keyframes gradientAnimation {
+															        0% {
+																	    background-position: 0% 50%;
+																	      }
+																	        50% {
+																			    background-position: 100% 50%;
+																			      }
+																			        100% {
+																					    background-position: 0% 50%;
+																					      }
+																				      }
+
